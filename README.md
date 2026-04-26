@@ -98,25 +98,30 @@ Email: teacher@test.com
 text
 src/
 ├── components/          # Переиспользуемые компоненты
+
 │   ├── Navbar.jsx      # Навигация
+
 │   └── ProtectedRoute.jsx # Защита маршрутов
+
 ├── context/            # Контексты React
+
 │   ├── AuthContext.jsx # Управление авторизацией
+
 │   └── ThemeContext.jsx # Управление темой
-├── pages/              # Страницы приложения
-│   ├── Home.jsx        # Главная страница
-│   ├── Courses.jsx     # Список курсов
-│   ├── CourseDetail.jsx # Детали курса
-│   ├── Dashboard.jsx   # Личный кабинет студента
-│   ├── AdminPanel.jsx  # Панель администратора
-│   └── ...             # Остальные страницы
-├── utils/              # Вспомогательные функции
-│   ├── storage.js      # Работа с LocalStorage
-│   ├── id.js           # Генерация ID
-│   └── initData.js     # Инициализация демо-данных
-├── App.jsx             # Главный компонент
-├── main.jsx            # Точка входа
-└── styles.css          # Глобальные стили
+├── pages/             
+│   ├── Home.jsx       
+│   ├── Courses.jsx     
+│   ├── CourseDetail.jsx 
+│   ├── Dashboard.jsx  
+│   ├── AdminPanel.jsx 
+│   └── ...            
+├── utils/            
+│   ├── storage.js     
+│   ├── id.js           
+│   └── initData.js  
+├── App.jsx      
+├── main.jsx  
+└── styles.css 
  Особенности дизайна
 Адаптивный дизайн — корректно отображается на всех устройствах (кроме телевоня)
 
